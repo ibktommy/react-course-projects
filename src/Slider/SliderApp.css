@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 80rem;
+  /* border: .1rem solid #000; */
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 1rem 0;
+  overflow-x: hidden;
+}
+
+section button {
+  background-color: rgb(165, 100, 226);
+  color: #fff;
+  border: 0;
+  padding: .4rem;
+  cursor: pointer;
+  border-radius: .5rem;
+  line-height: 1rem;
+  position: absolute;
+  top: 50%;
+}
+
+section button:hover {
+  background-color: rgb(130, 35, 218);
+  transition: .2s ease-out;
+}
+
+section button .btn-icon {
+  font-size: 2rem;
+}
+
+.right {
+  right: 0;
+  z-index: 5;
+}
+
+.left {
+  left: 0;
+  z-index: 5;
+}
+
+.main {
+  width: 100%;
+  min-height: 20rem;
+  position: relative;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: .3s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.user-card-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: .3rem solid rgb(165, 100, 226);
+  padding: .3rem;
+  margin-bottom: .5rem;
+}
+
+.user-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.user-card h4 {
+  text-transform: uppercase;
+  color: rgb(165, 100, 226);
+  font-size: 1.4em;
+}
+
+.user-card .job {
+  text-transform: capitalize;
+  color: #303030;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: .6rem 0 1.8rem 0
+}
+
+.user-card .text {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.icon {
+  font-size: 2rem;
+  color: rgb(165, 100, 226);
+}

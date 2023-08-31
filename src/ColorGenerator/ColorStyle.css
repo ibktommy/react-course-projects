@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f1f0f0;
+}
+
+#container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  align-self: center;
+  align-items: center;
+}
+
+.header .title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.input-color {
+  border: 0;
+  width: 5rem;
+  height: 3rem;
+}
+
+.input-text {
+  display: inline-block;
+  margin: 0 .5rem;
+  height: 3rem;
+  padding-left: .5rem;
+  border: .2rem solid;
+  outline: none;
+}
+
+.form-btn {
+  height: 3rem;
+  padding: .5rem .8rem;
+  border: 0;
+  color: #fff;
+  text-shadow: .1rem .1rem .4rem #985050;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  background-color: #000;
+  cursor: pointer;
+}
+
+#color-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-color {
+  height: 15rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-percent, .color-hex {
+  font-size: 1.6rem;
+}
