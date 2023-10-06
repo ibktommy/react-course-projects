@@ -1,7 +1,7 @@
-import CartApp from "./Cart/CartApp";
+import SwiperSliderApp from "./SwiperSlider/SwiperSliderApp";
 
 const App = () => {
-	return <CartApp />
+	return <SwiperSliderApp />;
 };
 
 export default App;
